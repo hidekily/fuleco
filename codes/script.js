@@ -72,44 +72,44 @@ function contentnone2(){
     document.getElementById('none').textContent = "NONE FULECO IS JUST SOMETHING ELSE"
 }
 
-// agora fudeo kokdposkadopskadopkaso
+// // agora fudeo kokdposkadopskadopkaso
 
-const ids = [
-    'opt1',
-    'opt2',
-    'opt3',
-    'opt4',
-    'opt5',
-    'opt6',
-    'opt7',
-    'opt8',
-    'opt9'
-]
-
-
-function optOVER1(opt){
-    let index = ids.indexOf(opt)
-    const arroz = [...ids]
-    if(index !== -1) {
-        arroz.splice(index, 1)
-    }
-    arroz.forEach(el => {
-        document.getElementById(el).style.opacity = '80%'
-        document.getElementById(el).style.scale = '80%'
-    })
-}
-
-function optOUT1(opt){
-    let index = ids.indexOf(opt)
-    const arroz = [...ids]
-    if(index !== -1) {
-        arroz.splice(index, 1)
-    }
-    arroz.forEach(el => {
-        document.getElementById(el).style.opacity = '100%'
-        document.getElementById(el).style.scale = '100%'
-    })
-}
+// const ids = [
+//     'opt1',
+//     'opt2',
+//     'opt3',
+//     'opt4',
+//     'opt5',
+//     'opt6',
+//     'opt7',
+//     'opt8',
+//     'opt9'
+// ]
 
 
-// fudeo nada o pae eh bom meu deus dopks ad ksapkd saopk
+// function optOVER1(opt){
+//     let index = ids.indexOf(opt)
+//     const arroz = [...ids]
+//     if(index !== -1) {
+//         arroz.splice(index, 1)
+//     }
+//     arroz.forEach(el => {
+//         document.getElementById(el).style.opacity = '80%'
+//         document.getElementById(el).style.scale = '80%'
+//     })
+// }
+
+// function optOUT1(opt){
+//     let index = ids.indexOf(opt)
+//     const arroz = [...ids]
+//     if(index !== -1) {
+//         arroz.splice(index, 1)
+//     }
+//     arroz.forEach(el => {
+//         document.getElementById(el).style.opacity = '100%'
+//         document.getElementById(el).style.scale = '100%'
+//     })
+// }
+
+
+// // fudeo nada o pae eh bom meu deus dopks ad ksapkd saopk
